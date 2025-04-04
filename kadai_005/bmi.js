@@ -1,6 +1,7 @@
-// 定数の代入
+// 変数の代入
 let weight = 68;
 let height = 1.7;
+let bmi = weight/(height*height);
 
 // コンソールへの出力
-console.log(weight/(height*height));
+console.log(bmi);
